@@ -43,6 +43,6 @@ This is a demo of how to fulfill parallel hyperparameter training on Compute Can
     wandb login
     ```
     you need to paste your authentication code this step, just follow the instruction from code. 
-2. Define your sweep configuration in ```sweep_configuration``` in ```testp1.py```.
+2. Define your sweep configuration in ```sweep_configuration``` in ```test01.py```.
 3. Don't forget ```wandb.log``` in your code.
 4. You will see the real time result in [your wandb web page](https://wandb.ai)
