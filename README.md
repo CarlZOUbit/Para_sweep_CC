@@ -33,7 +33,7 @@ This is a demo of how to fulfill parallel hyperparameter training on Compute Can
     ```
     Then the command line will be written into ```table.dat```. In this demo, I only use two nodes for parallel training. Commands like ```cp``` and ```mkdir``` and etc can also be written here.
 8. If there comes up with error of ```permission denied```, you could run ```chmod 777``` for the file to give the system right to run it.
-9. Submit the job by ```submit.run -1```, clean by ```clean.run```
+9. Submit the job by ```submit.run <number of cycles you want to run, ie. 10/20/30>```, clean by ```clean.run```, terminate by ```kill.run```
 ### Useful link:
 1. [document from Compute Canada](https://docs.alliancecan.ca/wiki/META:_A_package_for_job_farming#single_case.sh)
 2. [very useful webinar from Youtube for above all](https://www.youtube.com/watch?v=GcYbaPClwGE)
